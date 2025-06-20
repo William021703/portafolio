@@ -5,6 +5,11 @@ import "./index.css";
 
 function App() {
   const [name, setName] = useState("");
+  const [skills, setSkills] = useState({
+    languages: ["JavaScript"],
+    frameworks: ["React.js", "Node.js"],
+    databases: ["MySQL"],
+  });
 
   useEffect(() => {
     const nombre = `I'm WiLliam MoRiLlO`;
@@ -16,7 +21,7 @@ function App() {
       }, i * 500);
     }
   }, []);
-  console.log(name);
+
   return (
     <>
       <div className="bg-stone-900 w-full h-screen flex flex-col items-center relative">
@@ -37,6 +42,19 @@ function App() {
             teamwork skills, and a commitment to continuous learning. Fluent in
             English for remote or international work
           </h2>
+        </div>
+        <div className="w-full h-screen">
+          <h1>SkiLls</h1>
+          <pre>
+            <code>
+              {Object.entries(skills).map(([key, value], index) => (
+                <div key={index}>
+                  <span className="text-4xl">{key}</span> :{" "}
+                  <span className="text-4xl caret-amber-400">{value}</span>
+                </div>
+              ))}{" "}
+            </code>
+          </pre>
         </div>
         <div>
           <span>
