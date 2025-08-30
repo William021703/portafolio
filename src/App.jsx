@@ -1,6 +1,14 @@
 import { useEffect, useState } from "react";
 import { TbArrowBigDownLinesFilled } from "react-icons/tb";
 import "./index.css";
+import {
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaGithub,
+  FaCloud,
+} from "react-icons/fa";
 
 function App() {
   const [name, setName] = useState("");
@@ -88,15 +96,21 @@ function App() {
 
       <TbArrowBigDownLinesFilled className=" w-16 h-16 text-slate-200 animate-bounce mb-4" />
 
-      <div className="bg-sky-600 p-6 rounded-xl text-white w-full max-w-lg mb-10 text-lg shadow-md space-y-2 relative">
-        <p>
-          <strong>Languages:</strong> JavaScript
+      <div className="bg-sky-600 p-6 rounded-xl text-white w-full max-w-lg mb-10 text-lg shadow-md space-y-3">
+        <p className="flex items-center gap-2">
+          <FaJs /> <strong>Language:</strong> JavaScript
         </p>
-        <p>
-          <strong>Frameworks:</strong> React, Node
+        <p className="flex items-center gap-2">
+          <FaReact /> <strong>Frameworks:</strong> React, Node.js (Express)
         </p>
-        <p>
-          <strong>Databases:</strong> MySQL
+        <p className="flex items-center gap-2">
+          <FaDatabase /> <strong>Database:</strong> MySQL
+        </p>
+        <p className="flex items-center gap-2">
+          <FaGithub /> <strong>Version Control:</strong> GitHub
+        </p>
+        <p className="flex items-center gap-2">
+          <FaCloud /> <strong>Deployment:</strong> Netlify, Railway
         </p>
       </div>
 
