@@ -165,11 +165,11 @@ function App() {
             LinkedIn
           </a>
           <a
-            href="/PORTAFOLIO/miPortafolio/public/William_cv_updated.pdf"
+            href="/CV.PORTFOLIO.PROYECTOS.pdf"
             download
             className="hover:text-amber-300 hover:scale-110 transition duration-300 cursor-pointer"
           >
-            Download CV
+            Download cv
           </a>
         </div>
       </footer>
