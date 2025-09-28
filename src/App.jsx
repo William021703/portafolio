@@ -61,7 +61,7 @@ function App() {
       items-center justify-around shadow-md text-white transition-colors hover:bg-cyan-600 duration-300"
       >
         <a
-          className="hover:scale-110 transition duration-300 cursor-pointer"
+          className="hover:scale-110 transition duration-300 cursor-pointer "
           href="#about"
         >
           About me
@@ -157,7 +157,7 @@ function App() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/william-morillo-4a483a270"
+            href="https://www.linkedin.com/in/william-junior-morillo-4a483a270/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-amber-300 hover:scale-110 transition duration-300 cursor-pointer"
