@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { TbArrowBigDownLinesFilled } from "react-icons/tb";
+;
+
 import "./index.css";
 import {
   FaJs,
@@ -8,6 +10,7 @@ import {
   FaDatabase,
   FaGithub,
   FaCloud,
+  FaDocker,
 } from "react-icons/fa";
 
 function App() {
@@ -96,23 +99,27 @@ function App() {
 
       <TbArrowBigDownLinesFilled className=" w-16 h-16 text-slate-200 animate-bounce mb-4" />
 
-      <div className="bg-sky-600 p-6 rounded-xl text-white w-full max-w-lg mb-10 text-lg shadow-md space-y-3">
-        <p className="flex items-center gap-2">
-          <FaJs /> <strong>Language:</strong> JavaScript
-        </p>
-        <p className="flex items-center gap-2">
-          <FaReact /> <strong>Frameworks:</strong> React, Node.js (Express)
-        </p>
-        <p className="flex items-center gap-2">
-          <FaDatabase /> <strong>Database:</strong> MySQL
-        </p>
-        <p className="flex items-center gap-2">
-          <FaGithub /> <strong>Version Control:</strong> GitHub
-        </p>
-        <p className="flex items-center gap-2">
-          <FaCloud /> <strong>Deployment:</strong> Netlify, Railway
-        </p>
-      </div>
+    <div className="bg-sky-600 p-6 rounded-xl text-white w-full max-w-lg mb-10 text-lg shadow-md space-y-3">
+  <p className="flex items-center gap-2">
+    <FaJs /> <strong>Language:</strong> JavaScript
+  </p>
+  <p className="flex items-center gap-2">
+    <FaReact /> <strong>Frameworks:</strong> React, Node.js (Express)
+  </p>
+  <p className="flex items-center gap-2">
+    <FaDatabase /> <strong>Database:</strong> MySQL
+  </p>
+  <p className="flex items-center gap-2">
+    <FaGithub /> <strong>Version Control:</strong> GitHub
+  </p>
+  <p className="flex items-center gap-2">
+    <FaCloud /> <strong>Deployment Platforms:</strong> Netlify, Railway
+  </p>
+  <p className="flex items-center gap-2">
+    <FaDocker /> <strong>Containerization:</strong> Docker
+  </p>
+</div>
+
 
       <div
         id="Proyects"
