@@ -19,7 +19,7 @@ function App() {
       nombre: "Prestamos",
       img: "/prestamos.png",
       GitHub: "https://github.com/william021703/prestamos",
-      link: "https://luxury-capybara-811db0.netlify.app/",
+      link: "https://prismatic-salamander-dea14c.netlify.app/",
     },
     {
       nombre: "todolist",
