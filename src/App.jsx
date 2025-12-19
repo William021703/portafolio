@@ -102,7 +102,8 @@ function App() {
           <FaJs /> <strong>Language:</strong> JavaScript
         </p>
         <p className="flex items-center gap-2">
-          <FaReact /> <strong>Frameworks:</strong> React, Node.js (Express)
+          <FaReact /> <strong>Frameworks:</strong> React,React Native, Node.js
+          (Express)
         </p>
         <p className="flex items-center gap-2">
           <FaDatabase /> <strong>Database:</strong> MySQL
