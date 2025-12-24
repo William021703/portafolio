@@ -162,7 +162,7 @@ function App() {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/william-junior-morillo-4a483a270/"
+            href="https://www.linkedin.com/in/william-morillo-4a483a270/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-amber-300 hover:scale-110 transition duration-300 cursor-pointer"
