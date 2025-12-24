@@ -106,7 +106,7 @@ function App() {
           (Express)
         </p>
         <p className="flex items-center gap-2">
-          <FaDatabase /> <strong>Database:</strong> MySQL
+          <FaDatabase /> <strong>Database:</strong> MySQL, PostgreSQL, MonGoose
         </p>
         <p className="flex items-center gap-2">
           <FaGithub /> <strong>Version Control:</strong> GitHub
