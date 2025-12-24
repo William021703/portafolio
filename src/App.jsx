@@ -99,7 +99,7 @@ function App() {
 
       <div className="bg-sky-600 p-6 rounded-xl text-white w-full max-w-lg mb-10 text-lg shadow-md space-y-3">
         <p className="flex items-center gap-2">
-          <FaJs /> <strong>Language:</strong> JavaScript
+          <FaJs /> <strong>Language:</strong> JavaScript, TypeScript
         </p>
         <p className="flex items-center gap-2">
           <FaReact /> <strong>Frameworks:</strong> React, React Native, Node.js
