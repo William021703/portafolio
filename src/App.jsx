@@ -37,7 +37,11 @@ function App() {
   ]);
 
   useEffect(() => {
-    const aboutMe = `Web developer with experience building full-stack applications using technologies such as JavaScript, React, Node.js, and MySQL. I specialize in creating dynamic user interfaces, functional backends, and efficient databases. I have a problem-solving mindset, strong teamwork skills, and a commitment to continuous learning. Fluent in English for remote or international work`;
+    const aboutMe = `I am a Programming Technician trained at INFOTEP and currently pursuing higher education at UAPA. Although I do not yet have formal professional experience, I have over three years of independent experience developing modern software solutions, driven by my strong passion for technology and continuous learning.
+
+I work with JavaScript and TypeScript, using React.js and React Native for web and mobile development, and Node.js with Express on the backend. I have experience with relational and non-relational databases such as MySQL, PostgreSQL, and MongoDB (Mongoose), and I use Docker to build scalable and portable development environments. I am also certified in Playwright for test automation, ensuring software quality throughout the development lifecycle.
+
+I am highly motivated to grow as a software developer, eager to learn new technologies, and committed to building efficient, high-quality solutions that create real value.`;
     setTimeout(() => {
       setSobreMi(aboutMe);
       setOpacity(true);
@@ -103,7 +107,7 @@ function App() {
         </p>
         <p className="flex items-center gap-2">
           <FaReact /> <strong>Frameworks:</strong> React, React Native, Node.js
-          (Express)
+          (Express), PlayWright
         </p>
         <p className="flex items-center gap-2">
           <FaDatabase /> <strong>Databases:</strong> MySQL, PostgreSQL, MonGoose
